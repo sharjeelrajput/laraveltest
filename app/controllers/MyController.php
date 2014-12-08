@@ -12,7 +12,7 @@ class MyController extends BaseController {
     /** Show Test Message**/
     public function init(){
         $test = "Test";
-        $userList = "asdfasdfadsf" ;
+        $userList = "Testing" ;
         $testList = array(1, 1, 1, 1,  1, 8 => 1,  4 => 1, 19, 3 => 13);
         Log::info('This is some useful information.');
         return View::make('userList', array('list' => $testList, 'test' => $test));
